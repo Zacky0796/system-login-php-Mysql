@@ -19,12 +19,12 @@ if ( isset($_POST["login"]) ) {
             exit;
         }else {
             echo "<script>
-                    alert ('Email dan Password Anda Salah !');
+                    alert ('Username dan Password Anda Salah !');
                 </script>";
         }
     }else {
         echo "<script>
-                alert ('Email Anda Belum Terdaftar! Silahkan Registrasi Dulu yaa !');
+                alert ('Username Anda Belum Terdaftar! Silahkan Registrasi Dulu yaa !');
             </script>";
     }
 }
